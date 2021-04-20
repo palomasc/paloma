@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Crossroads Slideshow | Codrops</title>
+		<meta name="description" content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
+		<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="content">
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/Lucian.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Lucian</span>
+						<h2 class="content__item-header-title">EL PURIFICADOR</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							Lucian es un Centinela de la Luz y un sombrío cazador de espíritus inmortales, a los que persigue incansablemente y aniquila con sus dos pistolas reliquia. Después de que el espectro Thresh matara a su esposa, Lucian se embarcó en el camino de la venganza. A pesar del retorno a la vida de Senna, su rabia permanece indemne. Despiadado y firme, nada detendrá a Lucian en su misión por proteger a los vivos de los horrores ancestrales de la Niebla Negra.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/Neeko.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Neeko</span>
+						<h2 class="content__item-header-title">LA CAMALEÓN CURIOSA</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							Proveniente de una tribu vastaya perdida desde hace mucho tiempo, Neeko puede mezclarse en cualquier multitud adoptando la apariencia de los demás e incluso absorber un poco de su estado emocional para distinguir a un amigo de un enemigo en tan solo un instante. Nadie nunca tiene la certeza de dónde o en quién podría estar Neeko, pero quienes intenten hacerle daño pronto verán su verdadera personalidad y sentirán el poder de su magia espiritual primordial desatado sobre ellos.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/Ivern.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Ivern</span>
+						<h2 class="content__item-header-title">EL ÁRBOL PADRE</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							Ivern, conocido por muchos como Pies de Espino o el Viejo Leñador, es un ser peculiar. Mitad humano y mitad árbol, deambula por los bosques de Runaterra y cultiva vida dondequiera que va. Conoce los secretos del mundo natural y es buen amigo de todo lo que crece, vuela o se oculta en él. Ivern rejuvenece los bosques, comparte su curiosa sabiduría con cualquier mortal que conozca y, de vez en cuando, confía sus secretos a mariposas indiscretas.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/shyvana.jpg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">Shyvana</span>
+						<h2 class="content__item-header-title">LA HIJA DEL DRAGÓN</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							Shyvana es una criatura con magia elemental pura que arde en su corazón. Aunque en general muestra su forma humanoide, cuando lo cree necesario, puede adoptar su forma verdadera: la de un temible dragón que incinera a sus enemigos con su aliento abrasador. Después de salvarle la vida al príncipe y heredero de la corona, Jarvan IV. Shyvana ahora sirve con inquietud en su guardia real mientras busca la aceptación de la desconfiada gente de Demacia.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+			</div>
+			<div class="revealer">
+				<div class="revealer__inner"></div>
+			</div>
+			<div class="grid grid--slideshow">
+				<figure class="grid__item grid__item--slide">
+					<span class="number">01</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/Lucian.jpg);"></div>
+					</div>
+					<figcaption class="caption">Lucian</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">02</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/Neeko.jpg);"></div>
+					</div>
+					<figcaption class="caption">Neeko</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">03</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/Ivern.jpg);"></div>
+					</div>
+					<figcaption class="caption">Ivern</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">04</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/shyvana.jpg);"></div>
+					</div>
+					<figcaption class="caption">Shyvana</figcaption>
+				</figure>
+				<div class="titles-wrap">
+					<div class="grid grid--titles">
+						<h3 class="grid__item grid__item--title"></h3>
+						<h3 class="grid__item grid__item--title"></h3>
+						<h3 class="grid__item grid__item--title"></h3>
+						<h3 class="grid__item grid__item--title"></h3>
+					</div>
+				</div>
+				<div class="grid grid--interaction">
+					<div class="grid__item grid__item--cursor grid__item--left"></div>
+					<div class="grid__item grid__item--cursor grid__item--center"></div>
+					<div class="grid__item grid__item--cursor grid__item--right"></div>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Crossroads Slideshow</h1>
+					<div class="frame__links">
+						<a href="https://tympanus.net/Development/ExplodingObjects/">Previous Demo</a>
+						<a href="https://tympanus.net/codrops/?p=39863">Article</a>
+						<a href="https://github.com/codrops/CrossroadsSlideshow/">GitHub</a>
+					</div>
+					<div class="frame__mode" role="radiogroup">
+						<div class="frame__mode-item frame__mode-item--dark">
+							<input id="mode-1" type="radio" name="mode" class="frame__mode-input"></input>
+							<label class="frame__mode-label" for="mode-1">Dark mode</label>
+						</div>
+						<div class="frame__mode-item">
+							<input id="mode-2" type="radio" name="mode" class="frame__mode-input" checked></input>
+							<label class="frame__mode-label frame__mode-label--light" for="mode-2">Light mode</label>
+						</div>
+					</div>
+				</div>
+			</div><!-- /frame -->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
